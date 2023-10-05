@@ -1,0 +1,81 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilo para o cabeçalho */
+  h1 {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo para a área de pesquisa */
+  #searchInput {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para o botão de pesquisa */
+  button {
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para a tabela */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  /* Estilo para o cabeçalho da tabela */
+  table th {
+    background-color: #0074d9;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Estilo para as células da tabela */
+  table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Estilo para o botão de exclusão */
+  table button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para o botão de exclusão quando hover */
+  table button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Estilo para o rodapé da página */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0074d9;
+    color: #fff;
+  }
