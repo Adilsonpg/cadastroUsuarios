@@ -88,5 +88,5 @@ server.post('/salvar-usuario', async (request, reply) => {
 });
 
 server.listen({
-  port: 3333,
+  port: process.env.port ?? 3333,
 });
